@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1693717237 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg_vector\struct.cpp
+	"struct.h"
+	<sstream>
+
+1693717200 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg_vector\struct.h
+	"flower.h"
+	<string>
+	<vector>
+
+1693717410 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg_vector\flower.h
+	<string>
+
+1693756674 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg_vector\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"flower.h"
+	"struct.h"
+	"VectorList.h"
+
+1693720248 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg_vector\vectorlist.h
+	"flower.h"
+	<vector>
+
+1693757370 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg_vector\vectorlist.cpp
+	"VectorList.h"
+	<iostream>
+	<fstream>
+	<algorithm>
+

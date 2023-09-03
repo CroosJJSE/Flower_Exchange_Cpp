@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1693332010 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg2\linkedlist.cpp
+	"linkedlist.h"
+	<iostream>
+
+1693327844 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg2\linkedlist.h
+	"flower.h"
+
+1693219020 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg2\struct.h
+	"flower.h"
+	<string>
+	<vector>
+
+1692859557 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg2\struct.cpp
+	"struct.h"
+	<sstream>
+
+1693332303 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"flower.h"
+	"struct.h"
+	"linkedlist.h"
+
+1693327844 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\lseg2\flower.h
+	<string>
+
+1693588745 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\csvwriter.cpp
+	"csvwriter.h"
+
+1693588745 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\csvwriter.h
+	<fstream>
+	"flower.h"
+
+1693581863 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\flower.h
+	<string>
+
+1693676277 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\linkedlist.cpp
+	"linkedlist.h"
+	<iostream>
+	<fstream>
+
+1693621564 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\linkedlist.h
+	"flower.h"
+	<fstream>
+
+1693720608 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\main.cpp
+	<iostream>
+	<fstream>
+	"linkedlist.h"
+	"struct.h"
+	<iostream>
+	<fstream>
+	<string>
+	"flower.h"
+	"struct.h"
+	"linkedlist.h"
+
+1693219020 c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\struct.h
+	"flower.h"
+	<string>
+	<vector>
+
+1692859557 source:c:\users\rajar\onedrive - university of moratuwa\codes\codeblock\new folder\final_lseg\struct.cpp
+	"struct.h"
+	<sstream>
+

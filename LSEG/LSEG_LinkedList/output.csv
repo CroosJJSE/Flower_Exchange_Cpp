@@ -1,0 +1,7 @@
+Order ID,Client Order ID,Instrument,Side,Exec Status,Quantity,Price,Reason
+1,aa13,Rose,Buy,New,100,55,
+2,aa14,Rose,Buy,New,100,65,
+3,aa15,Rose,Sell,pfill,100,65,
+2,aa14,Rose,Buy,fill,100,65,
+3,aa15,Rose,Sell,pfill,100,55,
+1,aa13,Rose,Buy,fill,100,55,
