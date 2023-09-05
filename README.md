@@ -17,8 +17,13 @@ Welcome to the Trading Application, a C++ program designed for managing trading 
 - **Efficient Insertions and Deletions**: In trading, insertions and deletions are frequent operations, especially when handling a large number of transactions. Our program excels in managing these operations, offering constant-time insertion and deletion in the middle of the data structure, thanks to its initial use of **linked lists**.
 
     > **Note:** We initially implemented a linked list data structure, which proved crucial for efficient insertions and deletions, common in trading operations.
+  
+![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/299d4eee-4e26-4e13-9888-28fe4fba4832)
+
 
 - **Robust Performance**: We have extensively tested the program with a wide range of data sizes and scenarios. While initially implemented using linked lists, which excel at certain operations, we have since transitioned to using vectors for better scalability. Vectors have proven to handle very large datasets, successfully managing over 80 transactions without issues.
+
+  
 ![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/7598326c-8a0b-4f06-996f-b9f31e3fb735)
 
 ### Why We Moved to Vectors:
