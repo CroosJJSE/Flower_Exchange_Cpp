@@ -30,31 +30,32 @@ Welcome to the Trading Application, a C++ program designed for managing trading 
 ![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/299d4eee-4e26-4e13-9888-28fe4fba4832)
 
 
+### output i received when the number of input is high
+![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/5c8222a0-04e4-4cd1-a6ea-d273c85e637e)
+
 - **Robust Performance**: We have extensively tested the program with a wide range of data sizes and scenarios. While initially implemented using linked lists, which excel at certain operations, we have since transitioned to using vectors for better scalability. Vectors have proven to handle very large datasets, successfully managing over 80 transactions without issues.
 
   
 ![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/7598326c-8a0b-4f06-996f-b9f31e3fb735)
 
-### Why We Moved to Vectors:
+## How Vectors Overcome Challenges with Big Data:
 
-- **Scalability**: As the volume of data increased, linked lists began encountering limitations. We experienced issues such as null pointers, memory allocation problems, and crashes. To address these challenges, we switched to vectors.
+    - Efficient Memory Usage: Vectors allocate memory in larger blocks, reducing memory overhead compared to linked lists.
+    - Optimal Cache Performance: Contiguous memory storage enhances cache locality, leading to efficient cache performance.
+    - Fast Access Time: Vectors offer fast access times for specific elements, crucial for large data sets.
+    - Simplicity: Vectors simplify memory management by using a single memory block, reducing code complexity.
+    - Efficient Iteration: Iterating through vectors is efficient for operations involving sequential access in large data sets.
+    - Parallelism Support: Vectors can be effectively processed in parallel, enhancing performance with big data.
+    - Reduced Risk of Stack Overflow: Vectors avoid stack overflow issues as they do not rely on recursion
 
-- **Improved Memory Handling**: Vectors offer more predictable memory allocation compared to linked lists, which allocate memory for each node individually. This enhances overall program stability.
 
-- **Handling Large Datasets**: With vectors, our application now efficiently manages very large datasets, exceeding our initial expectations.
+## after implemented Vector list
 
-### How to Use:
+![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/fc7cafa8-d3c5-4bda-b787-8d47ced084e7)
 
-1. Clone this repository to your local machine.
-2. Compile the C++ source code using your preferred compiler.
-3. Run the executable with your input data, following the specified format.
+### inside output.CSV
+![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/3d0d6978-c9b1-4233-8029-d256488f3027)
 
-### Contributing:
+logic of algorithm is ok, but it can be modified to be run faster
 
-We welcome contributions to enhance the performance and features of this trading application. If you encounter any issues or have ideas for improvements, please create an issue or submit a pull request.
 
-### License:
-
-This trading application is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
-
----
