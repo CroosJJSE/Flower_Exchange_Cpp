@@ -1,5 +1,5 @@
 # Flower_Exchange_Cpp
-a project done by me for the C++ workshop series by LSEG.
+a project done for the C++ workshop series by LSEG.
 
 ![Screenshot 2023-09-03 232051](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/f3007cdd-f090-4c9f-a120-3afe7606852c)
 
@@ -16,7 +16,16 @@ Welcome to the Trading Application, a C++ program designed for managing trading 
 
 - **Efficient Insertions and Deletions**: In trading, insertions and deletions are frequent operations, especially when handling a large number of transactions. Our program excels in managing these operations, offering constant-time insertion and deletion in the middle of the data structure, thanks to its initial use of **linked lists**.
 
-    > **Note:** We initially implemented a linked list data structure, which proved crucial for efficient insertions and deletions, common in trading operations.
+    > **Note:** I initially implemented a linked list data structure, which proved crucial for efficient insertions and deletions in reak time applications.
+    >  But Why Linked Lists May Not Be Suitable for Big Data:
+    > > -   Memory Overhead: Linked lists consume additional memory for pointers, becoming a significant overhead with large data.
+    > > -   Fragmentation: Dynamic memory allocation can lead to memory fragmentation, causing inefficient memory usage.
+    > > -   Poor Cache Performance: Linked lists offer poor cache locality, resulting in less efficient cache performance.
+    > > -   Slower Access Time: Accessing specific elements can be slower due to linear search, while other data structures provide faster access times.
+    > > -   Complexity: The management of pointers, memory, and code complexity can become more challenging with large data.
+    > > -   Suboptimal Iteration: Traversing large linked lists can be less efficient for operations requiring sequential access.
+    > > -   Limited Parallelism: Linked lists may not support parallel processing, which is crucial for handling big data efficiently.
+    > > -   Stack Overflow: Recursion in linked list operations may lead to stack overflow with a large number of elements.
   
 ![image](https://github.com/CroosJJSE/Flower_Exchange_Cpp/assets/141708783/299d4eee-4e26-4e13-9888-28fe4fba4832)
 
